@@ -1,11 +1,13 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  font-family: PT Sans;
+  color: #0B1942;
 }
 
 body {
   display: flex;
   justify-content: center;
-  margin: 0;
 }
 
 .container {
@@ -58,4 +60,33 @@ nav a {
   padding: 50px 0;
   text-align: center;
   background-color: #00D5E7;
+}
+
+.get-involved {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.get-involved h1 {
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.opportunities {
+  display: flex;
+  justify-content: space-between;
+}
+
+.opportunity {
+  width: 31%;
+}
+
+.opportunity h2 {
+  background-color: #0B1942;
+  color: #FFFFFF;
+  padding: 2px 10px;
+  margin-bottom: 20px;
+  font-weight: 100;
 }
