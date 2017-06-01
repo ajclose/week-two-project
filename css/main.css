@@ -5,6 +5,7 @@
 body {
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 .container {
@@ -13,7 +14,6 @@ body {
 }
 
 nav {
-  border: 2px solid blue;
   display: flex;
   justify-content: flex-start;
   background-color: #7DDFE8;
