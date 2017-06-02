@@ -100,8 +100,7 @@ nav a {
   background-color: #0B1942;
   padding: 10px 10px 30px 10px;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .up-next h2 {
@@ -112,12 +111,19 @@ nav a {
   width: 100%;
 }
 
+.movies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .featured {
   width: 48%;
   display: flex;
   justify-content: space-between;
   padding: 15px;
   background-color: #E2E2E2;
+  height: 50%;
 }
 
 .featured-poster {
@@ -190,6 +196,11 @@ nav a {
   margin-bottom: 20px;
 }
 
+.movie-title {
+  font-size: 18px;
+}
+
 .movie-title a {
-  color: #00B7D3;;
+  color: #00B7D3;
+  font-weight: bold;
 }
