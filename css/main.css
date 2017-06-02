@@ -98,7 +98,7 @@ nav a {
 
 .up-next {
   background-color: #0B1942;
-  padding: 10px;
+  padding: 10px 10px 30px 10px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -181,8 +181,15 @@ nav a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px;
 }
 
 .movie {
   width: 48%;
+  margin-bottom: 20px;
+}
+
+.movie-title a {
+  color: #00B7D3;;
 }
