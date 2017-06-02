@@ -6,6 +6,10 @@
   color: #0B1942;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -95,6 +99,9 @@ nav a {
 .up-next {
   background-color: #0B1942;
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .up-next h2 {
@@ -102,6 +109,7 @@ nav a {
   font-weight: 100;
   padding: 10px 20px;
   font-size: 30px;
+  width: 100%;
 }
 
 .featured {
@@ -113,13 +121,11 @@ nav a {
 }
 
 .featured-poster {
-  background-image: url(../images/rashomon-poster.jpg);
-  background-size: cover;
   width: 47%;
 }
 
 .featured-info {
-  width: 48%;
+  width: 47%;
 }
 
 .featured-title {
@@ -146,13 +152,12 @@ nav a {
   font-size: 18px;
 }
 
-.rating {
+.date {
   font-weight: bold;
 }
 
 .featured-discussion {
   padding: 0;
-  padding-bottom: 70px;
 }
 
 .featured-discussion h4 {
@@ -168,4 +173,16 @@ nav a {
 
 .featured-discussion li {
   margin: 3px 0;
+}
+
+.other-movies {
+  background-color: #E2E2E2;
+  width: 48%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.movie {
+  width: 48%;
 }
