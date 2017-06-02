@@ -95,6 +95,10 @@ nav a {
   font-weight: 100;
 }
 
+.opportunity p {
+  font-size: 18px;
+}
+
 .up-next {
   background-color: #0B1942;
   padding: 10px 10px 30px 10px;
