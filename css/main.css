@@ -363,3 +363,30 @@ fieldset h1 {
   font-weight: 100;
   margin: 30px 0;
 }
+
+/********************Medium size styling**************************/
+
+@media screen and (max-width: 768px) {
+
+  .container {
+    width: 100%;
+    }
+
+  .movies {
+    flex-direction: column;
+  }
+
+  .featured {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .other-movies {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  .movie {
+    width: 23%;
+  }
+}
