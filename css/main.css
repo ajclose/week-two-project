@@ -17,7 +17,6 @@ body {
 
 .container {
   width: 80%;
-  border: 2px solid black;
 }
 
 nav {
@@ -209,8 +208,6 @@ nav a {
   width: 70%;
   text-align: right;
   padding: 50px 10px;
-  border: solid;
-
 }
 
 .copyright p {
