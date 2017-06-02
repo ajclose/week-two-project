@@ -443,4 +443,12 @@ fieldset h1 {
   #confirm-input {
     order: 4;
   }
+
+  .days {
+    height: 60vh;
+  }
+
+  .number {
+    width: 27%;
+  }
 }
