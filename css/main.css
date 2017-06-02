@@ -261,3 +261,14 @@ nav a {
 .highlight {
   background-color: #F5005B;
 }
+
+/*************************Join page styling*************************/
+
+.profile-picture {
+  display: flex;
+  flex-direction: column;
+}
+.profile-placeholder img {
+  width: 20%;
+  border-radius: 100%;
+}
