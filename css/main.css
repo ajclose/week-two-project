@@ -457,27 +457,27 @@ fieldset h1 {
 
 @media screen and (max-width: 544px) {
   .logo-container {
-    width: 25%;
+    width: 33%;
   }
 
   .nav {
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
 
   .home {
-    width: 75%;
-    flex-basis: 33%;
+    width: 100%;
+    padding: 15px 0;
   }
 
   .calendar {
-    width: 75%;
-    flex-basis: 33%;
+    width: 100%;
+    padding: 15px 0;
   }
 
   .join {
-    width: 75%;
-    flex-basis: 33%;
+    width: 100%;
+    padding: 15px 0;
   }
 
   .opportunities {
@@ -503,5 +503,45 @@ fieldset h1 {
 
   .number {
     width: 50%;
+  }
+
+  .profile-picture {
+    width: 100%;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .input-container {
+    width: 100%;
+  }
+
+  .input-container input {
+    width: 100%;
+  }
+
+  .interests label {
+    width: 100%;
+  }
+
+  .nav-links {
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer nav {
+    flex-direction: column;
+  }
+
+  footer .nav-links {
+    width: 100%;
+  }
+
+  .copyright {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
   }
 }
