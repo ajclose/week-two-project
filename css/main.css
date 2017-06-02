@@ -372,6 +372,26 @@ fieldset h1 {
     width: 100%;
     }
 
+  .logo-container {
+    width: 16%;
+  }
+
+  .home {
+    width: 16%;
+  }
+
+  .calendar {
+    width: 16%;
+  }
+
+  .join {
+    width: 16%;
+  }
+
+  .copyright {
+    width: 52%;
+  }
+
   .movies {
     flex-direction: column;
   }
