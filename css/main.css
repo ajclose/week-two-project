@@ -204,3 +204,15 @@ nav a {
   color: #00B7D3;
   font-weight: bold;
 }
+
+.copyright {
+  width: 70%;
+  text-align: right;
+  padding: 50px 10px;
+  border: solid;
+
+}
+
+.copyright p {
+  color: #FFFFFF;
+}
