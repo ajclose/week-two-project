@@ -213,3 +213,44 @@ nav a {
 .copyright p {
   color: #FFFFFF;
 }
+/***********************Calendar page styling*********************/
+
+.heading {
+  padding: 20px 15px;
+}
+
+.heading h1 {
+  font-weight: 100;
+  font-size: 35px;
+}
+
+.calendar-layout {
+  background-color: #0B1942;
+}
+
+.month h2 {
+  color: #FFFFFF;
+  font-weight: 100;
+  padding: 20px 15px;
+}
+
+.days {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.day {
+  width: 14.28%;
+  height: 20vh;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.number {
+  width: 20%;
+  padding: 5px;
+  background-color: #0B1942;
+  color: white;
+  text-align: center;
+}
