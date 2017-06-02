@@ -21,8 +21,14 @@ body {
 
 nav {
   display: flex;
-  justify-content: flex-start;
+  width: 100%;
   background-color: #7DDFE8;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
 }
 
 nav a {
@@ -209,7 +215,7 @@ nav a {
 }
 
 .copyright {
-  width: 70%;
+  width: 20%;
   text-align: right;
   padding: 50px 10px;
 }
