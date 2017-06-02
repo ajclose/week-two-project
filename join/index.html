@@ -34,7 +34,8 @@
 
       <form class="" action="index.html" method="post">
         <fieldset>
-          <legend>Join Film Club</legend>
+          <h1>Join Film Club</h1>
+          <div class="form-container">
           <div class="profile-picture">
             <label for="picture">profile picture</label>
             <input type="file" name="profile-picture" id="picture" value="profile picture">
@@ -44,24 +45,25 @@
           </div>
           <div class="contact">
             <div class="input-container">
-            <label for="name">name
-            <input type="text" name="name" id="name" value=""></label>
+            <label for="name">name</label>
+            <input type="text" name="name" id="name" value="">
             </div>
             <div class="input-container">
-            <label for="password">password
-            <input type="password" name="password" id="password" value=""></label>
+            <label for="password">password</label>
+            <input type="password" name="password" id="password" value="">
             </div>
             <div class="input-container">
-            <label for="email">email address
-            <input type="email" name="email" id="email" value=""></label>
+            <label for="email">email address</label>
+            <input type="email" name="email" id="email" value="">
             </div>
             <div class="input-container">
-            <label for="confirm">confirm password
-            <input type="password" name="confirm" id="confirm" value=""></label>
+            <label for="confirm">confirm password</label>
+            <input type="password" name="confirm" id="confirm" value="">
             </div>
           </div>
           <div class="interests">
             <legend>Which genres are you interested in?</legend>
+            <div class="genre-container">
             <label for="action">
               <input type="checkbox" name="genre" id="action" value="action">
               action
@@ -108,11 +110,13 @@
               western
             </label>
           </div>
+          </div>
           <div class="additional">
             <label for="additional-input">Additional input</label>
-            <input type="textarea" name="additional-input" id="additional-input" value="">
+            <textarea class="textarea" name="additional-input" id="additional-input" value=""></textarea>
           </div>
           <input class="button" type="button" name="join" value="Join Film Club">
+        </div>
         </fieldset>
       </form>
 

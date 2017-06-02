@@ -264,11 +264,98 @@ nav a {
 
 /*************************Join page styling*************************/
 
+fieldset h1 {
+  margin: 15px;
+  font-weight: 100;
+}
+.form-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
 .profile-picture {
   display: flex;
   flex-direction: column;
+  width: 35%;
+  padding: 15px;
 }
+
+.profile-picture label {
+  font-size: 18px;
+}
+
+.profile-picture input {
+  font-size: 16px;
+}
+
 .profile-placeholder img {
-  width: 20%;
   border-radius: 100%;
+  margin: 30px 0 20px 0;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 63%;
+  height: 50%;
+}
+
+.input-container {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.input-container input {
+  padding: 5px 0;
+}
+
+.interests {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.interests legend {
+  margin-bottom: 15px;
+}
+
+.genre-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.interests label {
+  width: 30%;
+  padding: 5px 0;
+}
+
+.additional {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.textarea {
+  width: 75%;
+  height: 7vh;
+  padding: 0;
+}
+
+.button {
+  background-color: #F5005B;
+  color: white;
+  padding: 20px 15px;
+  border: none;
+  font-size: 16px;
+  font-weight: 100;
+  margin: 30px 0;
 }
