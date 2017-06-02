@@ -452,3 +452,48 @@ fieldset h1 {
     width: 27%;
   }
 }
+
+/**********************Small size styling*******************************/
+
+@media screen and (max-width: 544px) {
+  .logo-container {
+    width: 25%;
+  }
+
+  .nav {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .home {
+    width: 75%;
+    flex-basis: 33%;
+  }
+
+  .calendar {
+    width: 75%;
+    flex-basis: 33%;
+  }
+
+  .join {
+    width: 75%;
+    flex-basis: 33%;
+  }
+
+  .opportunities {
+    flex-direction: column;
+  }
+
+  .opportunity {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .other-movies {
+    flex-wrap: wrap;
+  }
+
+  .movie {
+    width: 48%;
+  }
+}
