@@ -496,4 +496,12 @@ fieldset h1 {
   .movie {
     width: 48%;
   }
+
+  .days {
+    height: 45vh;
+  }
+
+  .number {
+    width: 50%;
+  }
 }
