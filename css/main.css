@@ -389,4 +389,38 @@ fieldset h1 {
   .movie {
     width: 23%;
   }
+
+  .interests label {
+    width: 48%;
+  }
+
+  .textarea {
+    width: 100%;
+  }
+
+  .profile-picture {
+    width: 48%;
+  }
+
+  .contact {
+    flex-direction: column;
+    width: 48%;
+  }
+
+  #name-input {
+    order: 1;
+  }
+
+  #email-input {
+    order: 2;
+    margin-bottom: 50px;
+  }
+
+  #password-input {
+    order: 3;
+  }
+
+  #confirm-input {
+    order: 4;
+  }
 }
