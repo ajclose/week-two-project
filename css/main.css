@@ -342,9 +342,12 @@ input {
   width: 63%;
   height: 50%;
 }
+.inputs {
+  width: 48%;
+}
 
 .input-container {
-  width: 48%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding: 10px 0;
@@ -463,21 +466,9 @@ input {
     width: 48%;
   }
 
-  #name-input {
-    order: 1;
-  }
-
-  #email-input {
-    order: 2;
-    margin-bottom: 50px;
-  }
-
-  #password-input {
-    order: 3;
-  }
-
-  #confirm-input {
-    order: 4;
+  .inputs {
+    width: 100%;
+    margin-bottom: 30px;
   }
 
   .days {
@@ -559,6 +550,10 @@ input {
 
   .input-container {
     width: 100%;
+  }
+
+  .inputs {
+    margin-bottom: 0;
   }
 
   .input-container input {
